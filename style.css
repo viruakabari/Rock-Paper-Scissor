@@ -1,0 +1,71 @@
+
+header{   background-color: cadetblue;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 1px;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    justify-content: center;
+}
+
+img{
+    border: 5px solid rgb(80, 20, 118);
+    border-radius: 50%;
+}
+#p1{
+    color: aliceblue;
+    padding: 9px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+}
+.choice{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.div{
+    
+    display: flex;
+    padding-left: 35%;
+    padding-top: 200px;
+}
+
+.choice:hover{
+    height: 105px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#result{
+    justify-content: center;
+    text-align: center;
+}
+.score-board{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+    font-size: 2.5rem;
+    gap: 3rem;
+}
+
+#user-score,#comp-score{
+    font-size: 2.5rem;
+}
+
+#msg{
+background-color: rgb(15, 15, 23);
+color: azure;
+font-size: 2rem;
+border-radius: 10px;
+padding: 25px;
+text-align: center;
+display: inline;
+}
